@@ -1,0 +1,50 @@
+.App {
+  width: 90%;
+  margin: auto;
+
+  header {
+    margin: 25px 0;
+  }
+}
+
+.txt {
+  &-sm {
+    font-size: small;
+  }
+
+  &-lg {
+    font-size: larger;
+  }
+
+  &-xl {
+    font-size: xx-large;
+  }
+
+  &-pri {
+    color: var(--primary);
+  }
+
+  &-sec {
+    color: var(--secondary);
+  }
+
+  &-inf {
+    color: var(--info);
+  }
+
+  &-suc {
+    color: var(--success);
+  }
+
+  &-dng {
+    color: var(--danger);
+  }
+}
+
+.action-buttons {
+  margin: 15px 0;
+
+  button {
+    margin-inline-end: 5px;
+  }
+}

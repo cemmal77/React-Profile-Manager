@@ -1,0 +1,23 @@
+.profile {
+  border: solid 0.5px;
+  border-color: var(--primary);
+  background-color: var(--light);
+  padding: 15px;
+  min-width: 225px;
+
+  p {
+    margin: 0;
+  }
+
+  &-picture {
+    max-height: 200px;
+    max-width: 200px;
+    border: solid 5px;
+    border-color: var(--secondary);
+    border-radius: 50%;
+  }
+
+  &-desc {
+    padding-left: 15px;
+  }
+}
